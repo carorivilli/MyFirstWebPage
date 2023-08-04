@@ -1,0 +1,96 @@
+
+body {
+    background-color: #fff6dc;
+  }
+  hr {
+    /* Eatilo de linea, la superior punteada, y las restantes sin estilo*/ 
+    border-style: dotted none none;
+    border-color: gray;
+    border-width: 5px;
+    /* Linea de espaciado */
+    width: 100%;
+  }
+  h1 {
+    /* Color de letra */
+    color: #9E9FA5;
+    /* Tamaño de letra */
+    font-size: 50px;
+    /* Tipo de letra */
+    font-family: 'Nunito', Times, serif;
+    /* Alineacion de texto */
+    text-align: center;
+  }
+  h2{
+    /* Color de letra */
+    color: #9E9FA5;
+    /* Tamaño de letra */
+    font-size: 40px;
+    /* Tipo de letra */
+    font-family: 'Nunito', Times, serif;
+    /* Alineacion de texto */
+    text-align: center;
+    }
+  h3 {
+    /* Color de letra */
+    color: #C4C1A4;
+    /* Tamaño de letra */
+    font-size: 30px;
+    /* Tipo de letra */
+    font-family: 'Nunito', Times, serif;
+    /* Alineacion de texto */
+    text-align: center;
+  }
+  p {
+    /* Color de letra */
+    color: black;
+    /* Tamaño de letra */
+    font-size: 20px;
+    /* Tipo de letra */
+    font-family: 'Nunito', Times, serif;
+    /* Alineacion de texto */
+    text-align: center;
+  }
+  tr{
+    /* Color de letra */
+    color: black;
+    /* Tamaño de letra */
+    font-size: 20px;
+    /* Tipo de letra */
+    font-family: 'Nunito', Times, serif;
+    /* Alineacion de texto */
+    text-align: center;
+    }
+  td {
+    /* Color de letra */
+    color: black;
+    /* Tamaño de letra */
+    font-size: 20px;
+    /* Tipo de letra */
+    font-family: 'Nunito', Times, serif;
+    /* Alineacion de texto */
+    text-align: center;
+  }
+    th {
+        /* Color de letra */
+        color: black;
+        /* Tamaño de letra */
+        font-size: 20px;
+        /* Tipo de letra */
+        font-family: 'Nunito', Times, serif;
+        /* Alineacion de texto */
+        text-align: center;
+    }
+    li {
+        /* Color de letra */
+        color: black;
+        /* Tamaño de letra */
+        font-size: 20px;
+        /* Tipo de letra */
+        font-family: 'Nunito', Times, serif;
+        /* Alineacion de texto */
+        text-align: justify;
+    }
+   table{
+    margin: 0 auto;
+   }
+
