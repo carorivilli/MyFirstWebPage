@@ -2,6 +2,17 @@
 body {
     background-color: #fff6dc;
   }
+ /* Pseudoclases, todo aquello que en la documentacion MDN tenga dos puntos adelante, es para darle un estado a un elemento en particular*/
+  img {
+    height: 250px;
+    
+  }
+  img:hover {
+    /* Cambio de tamaño de imagen al pasar el mouse por encima */
+    transform: scale(1.1);
+  }
+
+
   hr {
     /* Eatilo de linea, la superior punteada, y las restantes sin estilo*/ 
     border-style: dotted none none;
@@ -75,7 +86,8 @@ body {
         color: black;
         /* Tamaño de letra */
         font-size: 20px;
-        /* Tipo de letra */
+        /* Tipo de letra, Si no encuentro Nunito va por Times y sino por serif, para que encuentre Nunito, le agrego un href  en link para que cualquiera
+        que ejecute mi pagina pueda encontrar Nunito  */
         font-family: 'Nunito', Times, serif;
         /* Alineacion de texto */
         text-align: center;
@@ -92,5 +104,24 @@ body {
     }
    table{
     margin: 0 auto;
+
    }
+   
+/*Si quiero hacer un estilo especficio a algo, agrego class en su etiqueta que se denomina selectors
+ y luego me majeno con el nombre de la clase en el css*/
+   .contact{
+    /* Color de letra */
+    color: #FFC6AC;
+    /* Tamaño de letra */
+    font-size: 20px;
+    /* Tipo de letra */
+    font-family: 'Nunito', Times, serif;
+    /* Alineacion de texto */
+    text-align: center;
+   }
+/* ID SELECTORS a diferencia de las Clases es que solo puedo tener una por pagina y se utiliza # en lugar de .*/
+/* Cada HTML puede tener mas de una clase pero solo puede tener UN ID*/
+/* Si una etiqueta pertenece a mas de una clase se la nombra ahi mismo Ej. class="contact circule"*/
+
+
 
